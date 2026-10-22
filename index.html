@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahmud Telecom | মাহমুদ টেলিকম</title>
+<link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="login" class="modal" hidden><form class="mb" data-f="login">
+  <img class="lg" id="lg0" alt="">
+  <h2>Mahmud Telecom</h2>
+  <input name="email" type="email" placeholder="Email" required>
+  <input name="pass" type="password" placeholder="Password" required>
+  <button class="pri">Login / লগইন</button>
+</form></div>
+<header>
+  <div class="brand"><img id="lg1" alt=""><div><b>মাহমুদ টেলিকম</b><small>Mahmud Telecom</small></div></div>
+  <div class="hb"><button data-a="lang" id="lb">EN</button><button data-a="logout" id="lo" hidden>⏻</button></div>
+</header>
+<nav id="nav"></nav>
+<main id="app"></main>
+<footer>
+  <p>📍 <span id="ad"></span></p>
+  <p><a href="https://wa.me/8801846655270" target="_blank" rel="noopener">WhatsApp: 01846-655270</a> ·
+  <a href="https://www.facebook.com/share/1LyPMYqisr/" target="_blank" rel="noopener">Facebook</a></p>
+</footer>
+<div id="modal" class="modal" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="logo.js"></script>
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
